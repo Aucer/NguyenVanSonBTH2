@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj": {}
+    "d:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj": {}
   },
   "projects": {
-    "D:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj": {
+    "d:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj",
+        "projectUniqueName": "d:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj",
         "projectName": "NguyenVanSonBTH2",
-        "projectPath": "D:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj",
+        "projectPath": "d:\\nvs\\NguyenVanSonBTH2\\NguyenVanSonBTH2.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\nvs\\NguyenVanSonBTH2\\obj\\",
+        "outputPath": "d:\\nvs\\NguyenVanSonBTH2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

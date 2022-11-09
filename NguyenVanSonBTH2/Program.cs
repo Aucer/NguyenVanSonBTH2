@@ -1,5 +1,11 @@
-var builder = WebApplication.CreateBuilder(args);
+using NguyenVanSonBTH2.Data;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+//set connect to database
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(option =>
+    option.UseSqlite(connectionString));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
